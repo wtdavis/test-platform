@@ -3,17 +3,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 
 
 .main-top-panel {
     background-color: blue;
+    position: sticky;
+    height: 100px;
+    border: 2px solid blue;
+    margin: inherit;
+    padding:
 }
 
 .main-center-panel {
     background-color: red;
+    margin: inherit;
+    padding: inherit;
 }
 
 .main-bottom-panel {
     background-color: yellow;
+    margin: inherit;
+    padding: inherit;
 }
