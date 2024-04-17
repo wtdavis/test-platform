@@ -1,9 +1,14 @@
+/* css reset  */
+
 div, p, a, body, li, ul, link {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
+/* ---------------------------- */
+
+/* main structural setup  */
 
 .body {
     display: flex;
@@ -12,7 +17,7 @@ div, p, a, body, li, ul, link {
     align-items: center;
     margin: 0 50px 0 50px;
     background-color: antiquewhite;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .main-panel:first-child {
@@ -61,4 +66,14 @@ div, p, a, body, li, ul, link {
 .main-panel:last-of-type {
     margin-bottom: 50px;
     /* border: 5px solid green */
+}
+
+
+/* ------------------------------------*/
+
+/* main-top-panel fine layout, title, sidebar buttons */
+
+.title {
+    font-size: 50px;
+    color: rgb(228, 240, 250)
 }
