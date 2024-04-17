@@ -3,30 +3,58 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin: 0 50px 0 50px;
     padding: 0;
     list-style: none;
-
+    background-color: antiquewhite;
+    /* overflow: hidden; */
 }
 
+.main-panel:first-child {
+    margin-top: 50px;
+}
+
+.main-panel:last-child {
+    margin-bottom: 50px;
+}
 
 .main-top-panel {
-    background-color: blue;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.589);
     position: sticky;
     height: 100px;
-    border: 2px solid blue;
+    width: 100%;
     margin: inherit;
-    padding:
+    padding:inherit;
+    z-index: 101;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .main-center-panel {
     background-color: red;
+    width: 100%;
+    height: calc(80vh - 100px);
+    position: static;
+    margin: inherit;
+    padding: inherit;
+    z-index: 100;
+}
+
+.main-bottom-panel {
+    background-color: rgb(131, 131, 19);
+    width: 100%;
+    height: calc(20vh - 100px);
     margin: inherit;
     padding: inherit;
 }
 
-.main-bottom-panel {
-    background-color: yellow;
-    margin: inherit;
-    padding: inherit;
+.main-panel:first-child {
+    margin-top: 50px;
+}
+
+.main-panel:last-of-type {
+    margin-bottom: 50px;
+    /* border: 5px solid green */
 }
