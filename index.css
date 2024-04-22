@@ -30,7 +30,7 @@ div, p, a, body, li, ul, link {
 
 .main-top-panel {
     display: flex;
-    background-color: rgba(0, 0, 255, 0.589);
+    background-color: rgb(116, 85, 29);
     position: sticky;
     height: 100px;
     width: 100%;
@@ -42,7 +42,7 @@ div, p, a, body, li, ul, link {
 }
 
 .main-center-panel {
-    background-color: red;
+    background-color: rgb(39, 66, 155);
     width: 100%;
     height: calc(80vh - 100px);
     position: static;
