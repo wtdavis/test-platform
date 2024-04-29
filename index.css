@@ -9,13 +9,18 @@ div, p, a, body, li, ul, link {
 /* ---------------------------- */
 
 /* main structural setup  */
+.body {
+    --big-margin: 50px;
+    --small-margin: 25px;
+}
+
 
 .body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 50px 0 50px;
+    margin: 0 var(--big-margin) 0 var(--big-margin);
     background-color: antiquewhite;
     overflow: hidden;
 }
