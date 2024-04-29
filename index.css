@@ -12,6 +12,7 @@ div, p, a, body, li, ul, link {
 .body {
     --big-margin: 50px;
     --small-margin: 25px;
+    --small-height: 100px;
 }
 
 
@@ -89,4 +90,5 @@ div, p, a, body, li, ul, link {
 .menu {
     position: fixed;
     border: 1px solid green;
+    right: calc(var(--big-margin) + 10px)
 }
