@@ -87,5 +87,6 @@ div, p, a, body, li, ul, link {
 
 
 .menu {
-    
+    position: fixed;
+    border: 1px solid green;
 }
