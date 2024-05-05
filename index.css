@@ -99,5 +99,8 @@ div, p, a, body, li, ul, link {
 /* bottom panel, housekeeping buttons */
 
 .main-bottom-panel {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
