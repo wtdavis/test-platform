@@ -1,3 +1,3 @@
 
 
-document.addEventListener("DOMContentLoaded", function() {console.log("derp")})
+document.addEventListener("DOMContentLoaded", function() {console.log("herp derp derp")})
