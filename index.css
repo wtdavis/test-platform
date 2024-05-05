@@ -93,3 +93,11 @@ div, p, a, body, li, ul, link {
     right: calc(var(--big-margin) + 10px);
     top: calc(var(--big-margin) + 10px);
 }
+
+/* ----------------------------------------------------- */
+
+/* bottom panel, housekeeping buttons */
+
+.main-bottom-panel {
+    
+}
