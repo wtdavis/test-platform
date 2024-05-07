@@ -94,6 +94,10 @@ div, p, a, body, li, ul, link {
     top: calc(var(--big-margin) + 10px);
 }
 
+
+.right-menu {
+    
+}
 /* ----------------------------------------------------- */
 
 /* bottom panel, housekeeping buttons */
