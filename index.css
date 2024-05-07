@@ -96,7 +96,11 @@ div, p, a, body, li, ul, link {
 
 
 .right-menu {
-    
+    display: none;
+}
+
+#options-button .right-menu::selected {
+    display: flex;
 }
 /* ----------------------------------------------------- */
 
