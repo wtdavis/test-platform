@@ -80,6 +80,7 @@ div, p, a, body, li, ul, link {
 /* main-top-panel fine layout, title, sidebar buttons */
 
 .title {
+    border: 1px solid blue;
     font-size: 50px;
     color: rgb(228, 240, 250)
 }
