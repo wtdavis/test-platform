@@ -102,9 +102,7 @@ div, p, a, body, li, ul, link {
     display: none;
 }
 
-#options-button .right-menu::selected {
-    display: flex;
-}
+
 /* ----------------------------------------------------- */
 
 /* bottom panel, housekeeping buttons */
