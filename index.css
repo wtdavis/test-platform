@@ -10,9 +10,9 @@ div, p, a, body, li, ul, link {
 
 /* main structural setup  */
 .body {
-    --big-margin: 50px;
+    --big-margin: 35px;
     /* --big-margin: 5vw; */
-    --small-margin: 25px;
+    --small-margin: 15px;
     /* --small-margin: 3vw; */
     --small-height: 100px;
 }
@@ -33,7 +33,7 @@ div, p, a, body, li, ul, link {
 }
 
 .main-panel:last-child {
-    margin-bottom: 50px;
+    margin-bottom: var(--big-margin);
 }
 
 .main-top-panel {
