@@ -10,8 +10,10 @@ div, p, a, body, li, ul, link {
 
 /* main structural setup  */
 .body {
-    --big-margin: 50px;
-    --small-margin: 25px;
+    /* --big-margin: 50px; */
+    --big-margin: 10vw;
+    /* --small-margin: 25px; */
+    --small-margin: 5vw;
     --small-height: 100px;
 }
 
@@ -115,5 +117,5 @@ div, p, a, body, li, ul, link {
 }
 
 .main-top-panel-button {
-    
+    border: 1px solid lightblue;
 }
