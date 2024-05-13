@@ -89,6 +89,7 @@ div, p, a, body, li, ul, link {
 
 
 .menu {
+    border: 1px solid green;
     position: absolute;
     border: 1px solid green;
     right: calc(var(--big-margin) + 10px);
